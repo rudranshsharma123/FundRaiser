@@ -1,70 +1,23 @@
-# Getting Started with Create React App
+Link to how it works -> https://www.youtube.com/watch?v=x9eK6UVLx20
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Inspiration
+Seeing how many Natural Disasters and Health Hazard we face in the current time, and how easily can even one such event misplace the lives of millions of humans. I wanted to create a platform where anyone and everyone can come and create fundraisers for any humanitarian clause. The best part is that instead of dealing with the pesky banks or other payment provider where every single one of the middle man wants a cut of the money. Here you get paid directly into your wallet with Ethers!
 
-## Available Scripts
+## What it does
+It is a platform where you can create FundRaisers for any given cause. It will then send you messages using Twilio and store all your data on chain. You can set how much money you want to raise, how long are you planning to run the fundraiser and for what is the money going to be used. After the funds are raised or the timer turns to 0 the deployer wallet will get whatever funds was raised and then you will get another notification by Twilio that the FundRaiser has run its course. 
+The best part is that since everything happens on chain, the money and the trail is very transparent and it is good for anyone giving money to see that the money is not being used nefariously.
 
-In the project directory, you can run:
+## How I built it
+I built it using Solidity, react, Flask and Twilio 
 
-### `npm start`
+## Challenges I ran into
+There were so many challenges in getting this project together and so much learning to be done in this weekend but I am glad that I did it all. The main issues were getting React to play nicely with all the use effects and state management then it was also an issue to get the frontend just right and data to flow like it should. There were so many issues at one point that I had to leave sleep for a night just to try and fix them but even then I had to come back to it the next day and then it was solved. 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Accomplishments that I am proud of
+The fact that everything works as intended 
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## What I learned
+I learned a lot of things about React, Solidity and Twilio
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## What's next for FundRaiser
+Adding a fraud detection algo to avoid fake fundraisers
